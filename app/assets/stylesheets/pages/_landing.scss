@@ -1,0 +1,48 @@
+.transparent {
+  background: transparent;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#landing-page {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.top-islands {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  .top-picks {
+    text-align: left;
+  }
+}
+
+#main {
+  font-size: 20px;
+  padding: 12px 26px;
+}
+
+#main:hover {
+  background-color: rgba(240, 248, 255, 1);
+  color: $blue-color;
+}
+
+
+@media (min-width: 768px){
+  #container{
+    max-width:100%;
+  }
+}
+
+@media (min-width: 992px){
+  #container{
+    max-width:100%;
+  }
+}

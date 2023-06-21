@@ -1,0 +1,63 @@
+.island-card {
+  // border: 1px solid blue;
+  .island-details{
+    font-size: 20px;
+    font-family: $font;
+  }
+}
+
+i{
+  // color: #595959;
+  color: $blue-color;
+  font-size: 18px;
+}
+
+
+.review-card{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 3px;
+  width: 407px;
+  margin-left: 20px;
+  border-radius: 8px;
+  border: 2px solid $blue-color;
+
+}
+
+.rating-emoji{
+  margin-top: -14px;
+}
+
+.review-a:hover{
+  text-decoration: none;
+  color: black;
+}
+
+// .img-card{
+//   border: 1px solid red;
+// }
+
+// .details-card{
+//   border: 1px solid red;
+// }
+
+// .booking-form{
+//   border: 1px solid red;
+// }
+
+// .reviews-card{
+//   border: 1px solid red;
+// }
+
+// .add-review-form{
+//   border: 1px solid red;
+// }
+
+// .card{
+//   // position: absolute;
+//   top: 40%;
+//   left: 50%;
+//   transform: translate(-50%, -50%);
+//   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+//   padding: 30px;
+//   width: 500px;
+// }

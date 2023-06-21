@@ -1,0 +1,49 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+  border-radius: 5px !important;
+  overflow: hidden;
+  width: 100%;
+  height: fit-content;
+}
+
+.card-container {
+  display: grid;
+  gap: 50px;
+  width: 100%;
+  grid-template-columns: 1fr;
+}
+
+
+.carousel-inner.islands {
+  height: 150px;
+
+  img {
+    width: 100%;
+    object-fit: fill;
+  }
+
+}
+
+@media (min-width: 765px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 960px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .card-container {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1140px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

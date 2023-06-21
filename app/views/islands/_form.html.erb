@@ -1,0 +1,15 @@
+<%= simple_form_for(@island) do |f| %>
+<div class="mb-4">
+    <%= f.label :island_name %>
+    <%= f.input :name, as: :string, label:false %>
+    <%= f.input :location %>
+    <%= f.association :categories, as: :check_boxes %>
+    <%= f.label :price_per_night %>
+    <%= f.input :price, as: :string, label: false %>
+    <%= f.input :description %>
+    <% if @new %>
+      <%= f.input :photos, as: :file, input_html: {multiple: true} %>
+    <% end %>
+    <%= f.submit class: "default-button"%>
+  <% end %>
+</div>

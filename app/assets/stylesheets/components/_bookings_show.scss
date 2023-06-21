@@ -1,0 +1,72 @@
+h1 {
+  text-align: center;
+}
+
+.trip-to {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.trip-details {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.price-details {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#title {
+border-bottom: solid #1EDD88;
+}
+
+.my-bookings {
+  text-align:center;
+}
+
+// .sticky {
+//   position: sticky;
+//   top: 0px;
+// }
+
+.carousel.full-width {
+  width: 100vw;
+}
+
+.booking-container{
+  height: 100%;
+}
+
+a {
+  --bs-link-hover-color: rgb(80, 133, 115);
+  text-decoration: none;
+}
+
+#button-bookings {
+  width: 15%;
+  align-self: center;
+}
+
+#button-cancel {
+  margin-left: 0px;
+  width: 15%;
+  align-self: center;
+  margin-top: 20px;
+  opacity: 0.9;
+  color: #1EDD88;
+}
+
+#button-cancel:hover {
+  opacity: 1;
+  color: #1EDD88;
+}
+
+
+.link {
+  color: #1EDD88;
+}
+
+a.default-button {
+  margin-top: 15px;
+}
